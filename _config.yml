@@ -1,0 +1,26 @@
+# Site settings
+
+title: ブライダル工房ストレリチア・ソーイングルーム・お花の教室　沖縄名護
+# email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+一生に一度の思い出に、オリジナルのウェディングドレスを作りませんか？
+沖縄県名護市にあるウェディングドレスのオーダーメイド・レンタル、ブーケ制作の工房です。長年の洋裁経験とフラワーアレンジメントの経験を継続して、婦人服の仕立て・お直し・リメイクを取り扱う『ソーイングルームくれよん』、『お花の教室美ら花』も営業しております。
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

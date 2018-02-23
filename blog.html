@@ -1,0 +1,27 @@
+---
+layout: page
+title: ブログ　ブライダル工房ストレリチア・ソーイングルーム・お花の教室　沖縄名護
+permalink: /blog/
+---
+<!-- Slider Start -->
+<section id="blog-header" class="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>工房ダイアリー</h1>
+          <p>ブライダル工房ストレリチア・ソーイングルームくれよん・お花の教室 美ら花</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for post in site.posts %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <p class="post-date">{{ post.date | date_to_long_string }}</p>
+  <p>
+    {{ post.content | strip_html | truncatewords: 50 }}
+  </p>
+</div>
+{% endfor %}

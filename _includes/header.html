@@ -1,0 +1,43 @@
+<!-- Header Start -->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- header Nav Start -->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid" style="display:table;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div>
+                <a class="navbar-brand" href="/">
+                  <img width="290px" src="{{ site.baseurl }}/img/logo.png" alt="Logo">
+                </a>
+              </div>              
+            </div>
+            <div class="collapse navbar-collapse" style="float: right; text-align: right; margin-top: 6px;">
+              <span>お電話： ０９８０（５３）ー５５９２</span><br>
+              <span>営業時間： 10:00 ~ 19:00　定休日：日曜日</span>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li {% if page.url == "/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/">当工房について</a></li>
+                <li {% if page.url == "/strelitzia/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/strelitzia">ストレリチア</a></li>
+                <li {% if page.url == "/crayon/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/crayon">ソーイングルーム くれよん</a></li>
+                <li {% if page.url == "/churabana/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/churabana">お花の教室 美ら花</a></li>
+                <li {% if page.url == "/blog/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/blog">ブログ</a></li>
+                <li {% if page.url == "/contact/" %}class="active"{% endif %}><a href="{{ site.baseurl }}/contact">お問い合わせ</a></li>
+              </ul>
+            </div>
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</header><!-- header close -->
