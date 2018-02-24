@@ -80,21 +80,10 @@ header .navbar-default .navbar-nav li a {
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
-/*---------------------------------
-					Index 
------------------------------------*/
 
-.nagare {
-  border-top:  2px solid #ef3c5d;
-  border-bottom: 1px solid #ef3c5d;
-  margin: 14px 0 14px 0;
-  padding: 5px;
-  font-weight: bold;
-}
-
-/*--
-	wrapper Start
---*/
+/***************
+**** INDEX *****
+****************/
 #intro {
   padding: 50px 0;
 }
@@ -118,13 +107,66 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 
-/*--
-	service Start
---*/
+
+/********************
+**** STRELITZIA *****
+*********************/
 #strelitziaSection {
   text-align: center;
   padding: 40px 0;
 }
+.StrelitziaHeading {
+  font-size: larger;
+  font-weight: bolder;
+}
+.StrelitziaText {
+  font-size: large;
+}
+#StrelitziaOsusume {
+  border: 2px #302d3c solid;
+  margin: 50px 0 0 -10px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 499px)  {
+  .strelitzia_service {
+    padding-left: 5%; 
+    padding-right: 5%; 
+    text-align: left; 
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 500px)  {
+  .strelitzia_service {
+    padding-left: 20%; 
+    padding-right: 20%; 
+    text-align: left; 
+    font-size: 16px;
+  }
+}
+
+.nagare_header {
+  text-align: center;
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.nagare {
+  border-top:  2px solid #ef3c5d;
+  border-bottom: 1px solid #ef3c5d;
+  margin: 14px 0 14px 0;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/****************
+**** CRAYON *****
+*****************/
+
+/*******************
+**** CHURABANA *****
+********************/
 #service {
   text-align: center;
   padding: 20px 0;
@@ -149,12 +191,85 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 1.8;
 }
 
-/*---------------------------------------------
-					Work Start
------------------------------------------------*/
+/**************
+**** BLOG *****
+***************/
+
+/*****************
+**** CONTACT *****
+******************/
+#contact-form .block form .form-group {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+#contact-form .block form .form-group .form-control {
+  background: #F6F8FA;
+  height: 60px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+}
+#contact-form .block form .form-group-2 {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+#contact-form .block form .form-group-2 textarea {
+  background: #F6F8FA;
+  height: 135px;
+  border: 1px solid #EEF2F6;
+  box-shadow: none;
+  width: 100%;
+}
+#contact-form .block button {
+  width: 100%;
+  height: 60px;
+  background: #47424C;
+  border: none;
+  color: #fff;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 18px;
+}
 /*--
-	Slider-work Start
+	wrapper-contact Start
 --*/
+.address-block li {
+  margin-bottom: 20px;
+}
+.address-block li i {
+  margin-right: 15px;
+  font-size: 20px;
+  width: 20px;
+}
+.google-map {
+  position: relative;
+}
+.google-map #map {
+  width: 100%;
+  height: 300px;
+  background-color: #ff432e;
+}
+#contact-box {
+  padding-top: 35px;
+  padding-bottom: 58px;
+}
+#contact-box .block img {
+  width: 100%;
+}
+#contact-box .block h2 {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-weight: 300;
+  color: #000;
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+#contact-box .block p {
+  color: #5C5C5C;
+  display: block;
+}
+
+/***********************
+**** IMAGE HEADERS *****
+************************/
 #contact-header {
   background: url("../img/contact-banner.jpg") no-repeat;
   background-size: cover;
@@ -163,6 +278,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
   background-attachment: fixed;
 }
+
 #churabana-header {
   background: url("../img/churabana-banner.jpg") no-repeat;
   background-size: cover;
@@ -379,81 +495,6 @@ font header .navbar-default .navbar-nav li a:hover {
   display: none;
 }
 
-/*---------------------------------------------
-					 Contact Start
------------------------------------------------*/
-/*--
-	contact-form Start
---*/
-#contact-form .block form .form-group {
-  padding-bottom: 15px;
-  margin: 0px;
-}
-#contact-form .block form .form-group .form-control {
-  background: #F6F8FA;
-  height: 60px;
-  border: 1px solid #EEF2F6;
-  box-shadow: none;
-  width: 100%;
-}
-#contact-form .block form .form-group-2 {
-  padding-bottom: 15px;
-  margin: 0px;
-}
-#contact-form .block form .form-group-2 textarea {
-  background: #F6F8FA;
-  height: 135px;
-  border: 1px solid #EEF2F6;
-  box-shadow: none;
-  width: 100%;
-}
-#contact-form .block button {
-  width: 100%;
-  height: 60px;
-  background: #47424C;
-  border: none;
-  color: #fff;
-  /* font-family: 'Open Sans', sans-serif; */
-  font-size: 18px;
-}
-/*--
-	wrapper-contact Start
---*/
-.address-block li {
-  margin-bottom: 20px;
-}
-.address-block li i {
-  margin-right: 15px;
-  font-size: 20px;
-  width: 20px;
-}
-.google-map {
-  position: relative;
-}
-.google-map #map {
-  width: 100%;
-  height: 300px;
-  background-color: #ff432e;
-}
-#contact-box {
-  padding-top: 35px;
-  padding-bottom: 58px;
-}
-#contact-box .block img {
-  width: 100%;
-}
-#contact-box .block h2 {
-  /* font-family: 'Open Sans', sans-serif; */
-  font-weight: 300;
-  color: #000;
-  font-size: 28px;
-  padding-bottom: 30px;
-}
-#contact-box .block p {
-  color: #5C5C5C;
-  display: block;
-}
-
 /*--------- Heading------------*/
 .heading {
   padding-bottom: 60px;
@@ -534,4 +575,17 @@ footer .footer-manu ul li a:hover {
 
 .post-area a:hover {
   color: #0D0017;
+}
+
+@media screen and (max-width: 499px) {
+  #footer_address {
+    font-size: 11px;
+    margin-top:  -10px;
+  }
+}
+@media screen and (min-width: 500px) {
+  #footer_address {
+    font-size: 13px;
+    margin-top:  -10px;
+  }
 }
