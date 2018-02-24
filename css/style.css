@@ -81,6 +81,31 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
 
+@media only screen and (max-width: 499px)  {
+  .image_heading {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 0;
+    margin-top: 0;
+    text-transform: capitalize;
+  }
+
+  .global-header .block {
+    padding-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 500px)  {
+  .image_heading {
+    font-weight: 100;
+    font-size: 45px;
+    letter-spacing: 6px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    text-transform: capitalize;
+  }
+}
 /***************
 **** INDEX *****
 ****************/
