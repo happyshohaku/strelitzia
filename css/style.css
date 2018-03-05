@@ -219,6 +219,14 @@ font header .navbar-default .navbar-nav li a:hover {
 /**************
 **** BLOG *****
 ***************/
+#intro {
+  padding: 10px 0;
+}
+
+div.post-area a:hover {
+  color:#afabc2;
+  text-decoration: underline;
+}
 
 /*****************
 **** CONTACT *****

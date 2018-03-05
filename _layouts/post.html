@@ -4,7 +4,7 @@ layout: page
 
 <div class="post">
   <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
+  <section id="blog_intro" style="border: 1px dotted #ddd;">
     <div class="container">
       <div class="row">
         <div>
@@ -14,13 +14,13 @@ layout: page
               <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
             <hr />
-            <p>{{ content }}</p>
+            <div style="text-align:center; padding: 0 15px 0 15px;">{{ content }}</div>
           </div>
         </div><!-- .col-md-7 close -->
       </div>
     </div>
   </section>
 </div>
-<p class="center-text" style="padding: 30px;">
+<p class="center-text" style="padding: 20px;">
   <a href="{{ site.baseurl }}/blog">戻る</a>
 </p>
