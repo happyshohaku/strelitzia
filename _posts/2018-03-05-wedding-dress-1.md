@@ -8,10 +8,10 @@ author: ブライダル工房ストレリチア
 当工房のブログ・ウェブサイトへお越しいただきありがとうございます💗
 今回は、ブライダル工房ストレリチアの最初の作品となったドレスをご紹介します。
 
-<img src="http://127.0.0.1:4000/img/blog/20180305_01.jpg" style="width:290px;padding:10px 0 0 25px;" />
-<img src="http://127.0.0.1:4000/img/blog/20180305_02.jpg" style="width:290px;padding:10px 0 0 25px;" />
+<img src="/img/blog/20180305_01.jpg" style="width:290px;padding:10px 0 0 25px;" />
+<img src="/img/blog/20180305_02.jpg" style="width:290px;padding:10px 0 0 25px;" />
 
-<img src="http://127.0.0.1:4000/img/blog/20180305_03.jpg" style="width:290px;padding:10px 0 0 25px;" />
-<img src="http://127.0.0.1:4000/img/blog/20180305_04.jpg" style="width:290px;padding:10px 0 0 25px;" />
+<img src="/img/blog/20180305_03.jpg" style="width:290px;padding:10px 0 0 25px;" />
+<img src="/img/blog/20180305_04.jpg" style="width:290px;padding:10px 0 0 25px;" />
 
 お花のモチーフの下から伸びるレースのトレーンと、首回りや袖の形がポイントです。背中や腕をあまり見せたくない方へも安心して着ていただけるデザインになっています。実はこのドレス、工房をオープンさせるきかっけとなったドレスなんです。たくさんの方にも喜んでいただけますように💐
