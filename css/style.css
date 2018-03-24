@@ -340,6 +340,17 @@ div.post-area a:hover {
   color:#afabc2;
 }
 
+@media only screen and (max-width: 499px)  {
+  #post_title {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 500px)  {
+  #post_title {
+    font-size: 28px;
+  }
+}
 /*****************
 **** CONTACT *****
 ******************/
