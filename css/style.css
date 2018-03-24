@@ -344,11 +344,17 @@ div.post-area a:hover {
   #post_title {
     font-size: 22px;
   }
+  .post_mobile_header {
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (min-width: 500px)  {
   #post_title {
     font-size: 28px;
+  }
+  .post_mobile_header {
+    margin-left: 0px;
   }
 }
 /*****************
