@@ -188,6 +188,79 @@ font header .navbar-default .navbar-nav li a:hover {
 /****************
 **** CRAYON *****
 *****************/
+@media only screen and (max-width: 499px)  {
+  #crayon_service_about {
+    padding-left: 5%; 
+    padding-right: 5%; 
+    text-align: left; 
+    font-size: 14px;
+  }
+  #crayon_service_price {
+    padding: 0 20px 0 20px;
+  }
+  #crayon_costDetails {
+    display: none;
+  }
+}
+@media only screen and (min-width: 500px)  {
+  #crayon_service_about {
+    padding-left: 30%; 
+    padding-right: 30%; 
+    text-align: left;
+    margin-top:10px;
+    font-size: 16px;
+  }
+  #crayon_costDetails_mobile {
+    display: none;
+  }
+}
+
+#crayon_logo {
+  width: 60%; 
+  float: right;
+}
+
+.crayon_cost {
+  border-radius: 15px;
+  border: 3px solid #ffd966;
+  margin: auto;
+}
+
+#crayon_costHeader {  
+  padding: 20px;
+  width: 130px;
+}
+
+#crayon_costDetails {
+  padding: 0 20px 20px 20px;
+  width: 525px;
+}
+
+#crayon_redPlus {
+  color:red; 
+  margin-top: -5px;
+}
+
+#crayon_costDetails_Header {
+  color: red; 
+  text-align: center;
+}
+
+#crayon_costDetails_Left {
+  border-right: 3px solid #ffd966; 
+  padding-right:20px;
+}
+
+#crayon_costDetails_Right {
+  padding-left:20px;
+}
+
+#crayon_costDetails_mobileHeader {
+  color: red;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 /*******************
 **** CHURABANA *****

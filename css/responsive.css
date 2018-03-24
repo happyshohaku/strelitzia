@@ -204,9 +204,16 @@ px      68    160    252    */
   /*--
 	service Start 
 --*/
+@media screen and (max-width: 499px) {
+  #service {
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 500px) {
   #service {
     padding-top: 100px;
   }
+}
   #service .thumbnail {
     padding-bottom: 70px;
   }
