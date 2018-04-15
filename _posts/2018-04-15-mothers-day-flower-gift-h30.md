@@ -15,24 +15,26 @@ author: お花の教室 美ら花
 <hr>
 <div class="row">
     <div class="col-sm-4" style="font-weight: bold;">
-        (1) 高さ約22㎝×幅約22㎝
-        <br>￥2,000（税込）<br>
+        (1) 高さ約22㎝×幅約22㎝<br/>
+        ￥2,000（税込）<br/>
         <img src="/img/blog/20180415/01.jpg" style="width:290px;" />
     </div>
     <div class="col-sm-4" style="font-weight: bold;">
-        (2) 高さ約40㎝×幅約33㎝<br>
-        ￥3,000（税込）<br>
+        (2) 高さ約40㎝×幅約33㎝<br/>
+        ￥3,000（税込）<br/>
         <img src="/img/blog/20180415/02.jpg" style="width:290px;" />
     </div>
     <div class="col-sm-4" style="font-weight: bold;">
-        (3) 高さ約35㎝×幅約30㎝<br>
-        ￥3,800（税込）<br>
+        (3) 高さ約35㎝×幅約30㎝<br/>
+        ￥3,800（税込）<br/>
         <img src="/img/blog/20180415/03.jpg" style="width:290px;" />
     </div>
 </div>
 <hr>
 
 <img src="/img/blog/20180415/04.png" style="width:290px;" />
+
+<a href="/img/blog/20180415/平成30年　母の日　チラシ.pdf">チラシPDFをダウンロード</a>
 
 **※※あらかじめご了承ください※※**
  - 花材の色やサイズなどが多少変わることがございます。 
