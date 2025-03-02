@@ -692,7 +692,7 @@ footer p {
 footer a {
   color: #595959;
 }
-footer .footer-manu {
+/*.active .footer-manu {
   padding-bottom: 25px;
 }
 footer .footer-manu ul {
@@ -709,7 +709,7 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #000;
-}
+}*/
  .italic {
    font-style: italic;
  }
