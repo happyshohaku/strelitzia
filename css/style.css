@@ -499,6 +499,11 @@ div.post-area a:hover {
   word-spacing: 3px;
 }
 
+/* Padding below menu */
+.global-header {
+  margin-bottom: 2.5rem;
+}
+
 /*--
 	portfolio-work Start
 --*/
@@ -642,8 +647,10 @@ div.post-area a:hover {
   display: none;
 }
 
-
-
+/* Padding above footer */
+footer {
+  margin-top: 2.5rem;
+}
 
 /* center the contact block while keeping text left-aligned */
 .contact-center { text-align: center; }
@@ -676,10 +683,6 @@ div.post-area a:hover {
   display: block;
   margin-top: 1rem;
 }
-
-
-
-
 
 /*--------- Heading------------*/
 .heading {
